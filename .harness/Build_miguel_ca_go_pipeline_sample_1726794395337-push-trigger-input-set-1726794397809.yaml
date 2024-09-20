@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_miguel_ca_go_pipeline_sample_1726794395337-push-trigger-input-set
+  identifier: Build_miguel_ca_go_pipeline_sample_1726794395337pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_miguel_ca_go_pipeline_sample_1726794395337
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
